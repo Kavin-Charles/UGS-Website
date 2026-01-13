@@ -28,7 +28,7 @@ export function ContactPage() {
           'Accept': 'application/json',
         },
         body: JSON.stringify({
-          access_key: '7b12b42d-8154-4108-8ede-defcef18df62',
+          access_key: '02cf0842-c457-4aaa-ac15-82a7d336ef2c',
           subject: `New Contact Form Submission from ${formData.name}`,
           from_name: 'UGS Website Contact Form',
           name: formData.name,
