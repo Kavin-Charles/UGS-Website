@@ -5,13 +5,11 @@ export function Footer() {
   return (
     <footer className="bg-[#1a1a1a] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-white flex items-center justify-center">
-                <span className="text-[#003d82] font-bold text-2xl">UGS</span>
-              </div>
+            <div className="mb-6">
+              <img src="/logo-footer.png" alt="Ultra Global Services" className="h-12 w-auto" />
             </div>
             <div className="mb-4">
               <div className="font-bold text-lg leading-tight mb-1">
@@ -95,6 +93,18 @@ export function Footer() {
                 <span>admin@ugsengineers.com</span>
               </li>
             </ul>
+          </div>
+
+          {/* Accreditations */}
+          <div>
+            <h3 className="font-bold text-lg mb-6 tracking-wide">ACCREDITATIONS</h3>
+            <div className="bg-white/10 backdrop-blur-sm rounded-sm p-4 border border-white/20 inline-block">
+              <img
+                src="/bizsafe.png"
+                alt="bizSAFE Level 3 Certificate"
+                className="h-14 w-auto object-contain"
+              />
+            </div>
           </div>
         </div>
 

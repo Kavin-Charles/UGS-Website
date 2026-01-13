@@ -197,28 +197,6 @@ export function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Certifications Section */}
-      <section className="py-24 bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Certified & Compliant
-          </h2>
-          <div className="w-20 h-1 bg-white mx-auto mb-8"></div>
-          <p className="text-lg text-gray-300 mb-16 max-w-2xl mx-auto">
-            We maintain the highest industry standards and certifications to ensure quality and safety in all our projects
-          </p>
-          <div className="inline-flex items-center justify-center px-16 py-12 bg-white/10 backdrop-blur-sm rounded-sm border-2 border-white/30">
-            <div className="text-center">
-              <div className="mx-auto mb-6">
-                <img src="/bizsafe.png" alt="bizSAFE Level 3 Certificate" className="w-28 h-auto object-contain" />
-              </div>
-              <h3 className="text-3xl font-bold mb-3">bizSAFE Level 3</h3>
-              <p className="text-gray-300 text-lg">Certified Safety Management System</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
